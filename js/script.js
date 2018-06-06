@@ -30,7 +30,11 @@ var lineChartData = {
 	]
 
 }
+
 //163软开2班git练习修改
+
+//163软开分支my2修改练习
+
 window.onload = function(){
 	var ctx = document.getElementById("canvas").getContext("2d");
 	window.myLine = new Chart(ctx).Line(lineChartData, {
